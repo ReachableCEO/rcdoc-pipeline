@@ -12,6 +12,6 @@ pandoc \
 $INPUT_FILE \
 -o $OUTPUT_FILE \
 --template $TEMPLATE \
---metadata-file=$METADATA_FILE
+--metadata-file=$METADATA_FILE \
 --from markdown \
 $PANDOC_OPTIONS
