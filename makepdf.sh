@@ -1,7 +1,7 @@
 #!/bin/bash
 
 INPUT_FILE="$1"
-OUTPUT_FILE="$(basename $INPUT_FILE).pdf"
+OUTPUT_FILE="$(echo $INPUT_FILE|awk -F '.' '{print $1}').pdf"
 METADATA_FILE="$2"
 TEMPLATE="eisvogel"
 PANDOC_OPTIONS="--listings"
