@@ -3,11 +3,14 @@ gitea: none
 include_toc: true
 ---
 
-# rcdoc-pipeline
+# ReachableCEO Enterprises Document Production Pipeline
 
 ## Introduction
 
-ReachableCEO document production pipeline
+Welcome to the ReachableCEO Enterprises document production pipeline! 
+
+This is the code and (public)(non proprietary) metadata files that ReachableCEO Enterprises uses for
+producing all of it's PDF files (for internal use, public consumption, clients). 
 
 
 ## Runtime requirements
