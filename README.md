@@ -1,7 +1,9 @@
+---
+gitea: none
+include_toc: true
+---
+
 # rcdoc-pipeline
-
-[toc]
-
 
 ## Introduction
 
