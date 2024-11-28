@@ -4,9 +4,8 @@ INPUT_FILE="$1"
 OUTPUT_FILE="$(echo $INPUT_FILE|awk -F '.' '{print $1}').pdf"
 METADATA_FILE="$2"
 TEMPLATE="eisvogel"
-PANDOC_OPTIONS="--listings"
 
-# Setup proper boilerplate to handle cmd line options , check args etc...
+#Recommendation for production : proper error handling / arg checking etc (as we do in our SAAS paid version of this)
 
 pandoc \
 $INPUT_FILE \
